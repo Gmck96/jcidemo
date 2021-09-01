@@ -17,4 +17,9 @@ class CalculatorTest {
 		Calculator c = new Calculator();
 		assertEquals(c.sub(10,1), 9);
 	}
+	@Test
+	void testDivide(){
+		Calculator c = new Calculator();
+		assertEquals(c.divide(8,2), 4);
+	}
 }
