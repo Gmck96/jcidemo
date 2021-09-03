@@ -22,4 +22,10 @@ class CalculatorTest {
 		Calculator c = new Calculator();
 		assertEquals(c.divide(8,2), 4);
 	}
+	
+	@Test
+	void testMultiply() {
+		Calculator c = new Calculator();
+		assertEquals(c.multiply(8,2), 16)
+	}
 }
